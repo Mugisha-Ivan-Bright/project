@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">contact</a>
+      <a href="#">location</a>
+    </nav>
+  </header>
+  <H1>RCA STUDENT FORM TO BE REGISTERED BY EVERY STUDENT</H1>
+  <h1>Academic reports for RCA</h1>
+    <form action="p.php" method="post">
+
+<div><b>primary address</b>
+        <label for=""><br><br>First Name:</label><br>
+        <input type="text"required placeholder="Firstname" name="Firstname" pattern ="[a-zA-Z1-9]+" title="your first Name must be not include symbols and should include letters only"><br><br>
+        <label for="">second Name</label>
+        <input type="text"required placeholder="second Name" name="secondName"  pattern ="[a-zA-Z1-9]+" title="your first Name must be not include symbols and should include letters only"><br><BR><br>
+         <label for="">Father's Name</label> <br>
+         <input type="text" name="fathername"><br><br>
+         <label for="">Mother's Name</label> <br>
+         <input type="text" name="mothername"><br><br>
+        </div>
+        <div id="div2"><b>Secondary address
+        </b><br><br>
+          <label for="select">Class year:</label> <br>
+
+          <select value="" name="select">
+            <option value="year one A">year oneA</option>
+            <option value="year one B">year one B</option>
+            <option value="year one C">year one C</option>
+            <option value="year two A">year two A</option>
+            <option value="year two B">year two B</option>
+            <option value="year two C">year two C</option>
+            <option value="year two D">year two D</option>
+            <option value="year three A">year three A</option>
+            <option value="year three B">year three B</option>
+            <option value="year three c">year three C</option>
+            <option value="year three D">year three D</option>
+          </select><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="">phone Number</label><br>
+        <input type="tel" required max="10" min="10" placeholder="Tel Number" name="phonenumber"><br><br>
+
+        <label for="">user password</label><br>
+        <input type="password" minlength="8"name="password" ><br><br>
+
+</div>
+<div><b>Tertiary identity</b><br><br>
+
+        <label for="date">Date of Birth:</label><BR>
+        <input type="date" name="date"required></BR><br>
+
+        <label for="textarea">Extra Curcular Activities(optional):</label><br>
+        <textarea name="textarea" cols="50"></textarea><BR></BR>
+
+        <LABel for="cv">CV Attachement file:</LABel>
+        <input type="file"  name="cv"required>
+
+        <h2>Tell us about how you feel about this school</h2>
+        <textarea name="others" id="textarea" cols="31" rows=""placeholder="information about you in 2 lines"></textarea><br><br>
+       </div>
+        <div>
+
+     <input type="checkbox" id="checkbox"required>
+
+
+     <label for="checkbox">Confirm that all the above are true</label><br><br>
+     <input id="reset" type="reset" value="Change them all">
+     <input id="submit" type="submit" value="Enter">
+ </div>    
+    </form>
+    </DIV>
+    <div id="footer">
+      <h2>Rwanda coding Academy school</h2>
+      <h3>for more info:</h3>
+      <ul>
+        <li><a href="Tel:04040404404">Tel:04040404404</a></li>
+        <li><a href="mailTo:rca@gmail.com">mailTo:rca@gmail.com</a></li>
+        <li>location: Nyabihu-Mukamira</li>
+        <li>Rwanda-Kigali</li>
+      
+      </ul>
+    </div>
+    
+</body>
+</html>

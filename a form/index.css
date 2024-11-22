@@ -1,0 +1,108 @@
+form{
+    font-family: Georgia ;
+    font-size: 15px;
+  
+    background-color: rgb(120, 194, 203);
+display: flex;
+    box-shadow: 0px 0px 0px 4px gold;
+    padding: 10px;
+
+
+    background-color: white;
+}
+form:focus{
+    outline: rgb(83, 65, 41) solid;
+    outline-offset: 2px;
+}
+h1,label{
+    color:  rgb(41, 41, 83)transparent;
+    color: rgb(71, 28, 110);
+}
+textarea{
+    font-size: 20px;
+    border:gray 1px solid;
+    width: 300px;
+}
+
+input:focus{
+        outline: orange solid;
+}
+
+    input{
+        width: auto;
+        font-size: 17px;
+        border-color: 2px yellow  solid;
+        color: rgb(150, 12, 12);
+   
+    }
+    input:valid{
+        border-color: rgb(47, 127, 34) solid;
+    }
+  
+   body{
+    background-color: lightgray;
+
+
+   }
+#submit{
+    background-color: rgb(0, 149, 255);
+    border: solid 1px;
+    border-radius: 5px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 80%;
+    border:gray 1px solid;
+    margin-left: 20px;
+}
+h2{
+    color: #1e9628; 
+}
+select{
+    font-size: 14px;
+    border:gray 1px solid;
+}
+#STUDENTS-FORM{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    color: white;
+    background-color: rgb(217, 32, 32);
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div{
+    margin-right: 40px;
+    display: inline-block;
+}
+#div2{
+    margin-top: 9px;
+}
+#footer{
+    background-color:rgb(43, 28, 4)transparent;
+    color:  rgb(41, 41, 83)transparent;
+    display: block;
+    margin-top: 50px;
+}
+@media(max-width:120){
+form{
+max-width: 100px;
+}
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
+a{
+    margin-right: 10px;
+}
+nav{
+    left: 0;
+}
